@@ -1,26 +1,29 @@
-*{
- box-sizing : border-box; 
-}
+
+
 .container .row .well
 {
   margin-top : 100px;
+  background-color: #3B3C36;
+  border-radius: 20px;
+  border : none;
 }
 .logo
 {
   font-size : 50px;
   font-family : Audiowide;
-  color : black;
+  color : #ffffff ;
 }
 p.logo
 {
-  font-size : 30px;
+  font-size : 20px;
 }
 
 .pg1
 {
   background :url('https://drive.google.com/open?id=0B02MQV957EoMN19UYnlYTWN6WkU');
-  height : 500px;
-  backgound-color: black;
+  height : 800px;
+  background-color: #ff5722;
+  border-radius: 20px;
 }
 
 .pg2
@@ -47,6 +50,31 @@ p.logo
 
 .btn
 {
-  margin : 50px;
   font-size : 2em;
+  margin : 20px;
+}
+
+.aboutText p
+{
+  font-family : Aldrich;
+  font-size: 2em;
+  overflow: hidden;
+  color:#ffffff ;
+}
+
+.aboutText img
+{
+  border-radius: 50%;
+  border-style: solid;
+  height: 20%;
+  width : 15%;
+  float : right;
+  overflow: hidden;
+  border-color:  #ffffff  ;
+  border-width: 5px;
+}
+
+body
+{
+  background-color:   #000000 ;
 }
